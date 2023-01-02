@@ -4,12 +4,16 @@
   "description": "Functional and light weight date library for NodeJS and the browser",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon test/run.js"
+    "test": "nodemon test/run.js",
+    "build": "node scripts/build.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/eldoy/timian"
   },
   "author": "Vidar Eldøy <vidar@eldoy.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "uglify-js": "^3.17.4"
+  }
 }
