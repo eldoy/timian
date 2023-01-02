@@ -11,11 +11,11 @@ npm i timian
 ### Usage
 
 ```js
-// Find the number of days since a date
-timian.since(date)
+// Find the number of days from now until date
+timian.days(date)
 
 // Find the number of days between two dates
-timian.between(date1, date2)
+timian.days(date1, date2)
 ```
 
 MIT Licensed. Enjoy!
