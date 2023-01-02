@@ -1,6 +1,6 @@
 {
   "name": "timian",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Functional and light weight date library for NodeJS and the browser",
   "main": "index.js",
   "scripts": {
